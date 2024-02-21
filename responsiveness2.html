@@ -1,0 +1,78 @@
+<!DOCTYPE html>
+<html>
+<head>
+<title>Responsiveness two</title>
+<meta charset="utf-8">
+<meta name="viewport" 
+content="width=device-width,initial-scale=1.0">
+
+<style>
+.title{font-size:40px;text-align:center;
+color:#640221;}
+
+.contain{
+
+border-style:solid;
+border-width:2px;
+border-color:blue
+}
+
+.left{width:600px;
+height:350px;
+font-size:30px;text-align:center;
+color:#640221;
+
+display:inline-block;
+border-style:solid;
+border-width:2px;
+border-color:blue
+
+
+}
+
+.right{width:600px;
+height:350px;
+font-size:30px;text-align:center;
+color:#640221;
+
+display:inline-block;
+border-style:solid;
+border-width:2px;
+border-color:blue
+
+
+}
+
+.contain{padding:25px;}
+
+@media all and (max-width:700px)
+{
+.right,.left{width:90%;height:300px;
+border-color:red;
+}
+.contain{padding:10px;text-align:center}
+}
+
+
+
+
+
+
+
+
+</style>
+
+</head>
+
+<body>
+<div class="contain">
+<div class="title">title section</div>
+<div class="left">left section</div>
+<div class="right">right section</div>
+</div>
+
+
+
+
+</body>
+</html>
